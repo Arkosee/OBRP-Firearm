@@ -1,7 +1,7 @@
 Config = {}
 
 Config.UseTarget = true                                       -- (true | false)
-Config.CommandName = 'resetlicense'                           -- Command to reset a players license meta back to false. (permit | driver | cdl | bike)
+Config.CommandName = 'resetlicense'                           -- Command to reset a players license meta back to false
 
 
 Config.PaymentType = 'cash'                                   -- (cash | bank) What account to use for payment
@@ -20,10 +20,10 @@ Config.Locations = {  -- Coords and Ped to Spawn
   },
 }
 
-Config.GiveItem = true                                      -- (true | false) If false then player will have to go to city hall to get the licenses
+Config.GiveItem = true                                      -- (true | false)
 
 
 
 Config.Amount = {
-    ['theoritical'] = 150000,                                     --theoretical test payment amount(If Config.DriversTest = false then the theoritical test will go to the drivers test amount.)
+    ['theoritical'] = 150000,                                     --theoretical test payment amount
 }
